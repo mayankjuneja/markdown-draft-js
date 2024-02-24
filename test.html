@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>markdown-draft-js demo page</title>
+    <link rel="stylesheet" tyle="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
+    <style type="text/css">
+      body {
+        background: white;
+        color: black;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      }
+
+      h1, h2, h3, h4, h5, h6, p, ol, ul, blockquote {
+        margin-bottom: .5em;
+      }
+
+      h1 {
+        font-size: 2em;
+      }
+
+      h2 {
+        font-size: 1.8em;
+      }
+
+      h3 {
+        font-size: 1.6em;
+      }
+
+      h4 {
+        font-size: 1.4em;
+      }
+
+      h5 {
+        font-size: 1.2em;
+      }
+
+      h6 {
+        font-size: 1.1em;
+      }
+
+      ul, ol {
+        margin-left: 2em;
+      }
+
+      ul {
+        list-style-type: disc;
+      }
+
+      ol {
+        list-style-type: decimal;
+      }
+
+      ul .public-DraftStyleDefault-depth1 {
+        margin-left: 1em;
+        list-style-type: circle;
+      }
+
+      ul .public-DraftStyleDefault-depth2 {
+        margin-left: 2em;
+        list-style-type: square;;
+      }
+
+      ul .public-DraftStyleDefault-depth3 {
+        margin-left: 3em;
+        list-style-type: square;
+      }
+
+      ul .public-DraftStyleDefault-depth4 {
+        margin-left: 4em;
+        list-style-type: square;
+      }
+
+      ol .public-DraftStyleDefault-depth1 {
+        margin-left: 1em;
+      }
+
+      ol .public-DraftStyleDefault-depth2 {
+        margin-left: 2em;
+      }
+
+      ol .public-DraftStyleDefault-depth3 {
+        margin-left: 3em;
+      }
+
+      ol .public-DraftStyleDefault-depth4 {
+        margin-left: 4em;
+      }
+
+      blockquote {
+        padding-left: .2em;
+        margin-left: .5em;
+        border-left: 3px solid #ccc;
+      }
+
+      .draft-js-editor-wrapper {
+        width: 90%;
+        max-width: 800px;
+        margin: 20px auto;
+        line-height: 1.5;
+      }
+
+      .draftjs-results, .markdown-results {
+        width: 50%;
+        float: left;
+        box-sizing: border-box;
+        padding: 15px 0;
+      }
+
+      .markdown-results {
+        white-space: pre-wrap;
+        padding-left: 20px;
+      }
+
+      .markdown-results textarea {
+        margin-top: 4px;
+      }
+
+      .editor {
+        margin-top: 20px;
+      }
+
+      .RichEditor-root, textarea {
+        background: #fff;
+        border: 1px solid #ddd;
+        font-family: 'Georgia', serif;
+        font-size: 14px;
+        padding: 15px;
+      }
+
+      textarea {
+        width: 350px;
+        height: 300px
+      }
+
+      .RichEditor-editor {
+        border-top: 1px solid #ddd;
+        cursor: text;
+        font-size: 16px;
+        margin-top: 10px;
+      }
+
+      .RichEditor-editor .public-DraftEditorPlaceholder-root,
+      .RichEditor-editor .public-DraftEditor-content {
+        margin: 0 -15px -15px;
+        padding: 15px;
+      }
+
+      .RichEditor-editor .public-DraftEditor-content {
+        min-height: 194px;
+      }
+
+      .RichEditor-hidePlaceholder .public-DraftEditorPlaceholder-root {
+        display: none;
+      }
+
+      .RichEditor-editor .RichEditor-blockquote {
+        border-left: 5px solid #eee;
+        color: #666;
+        font-family: 'Hoefler Text', 'Georgia', serif;
+        font-style: italic;
+        margin: 16px 0;
+        padding: 10px 20px;
+      }
+
+      .RichEditor-editor .public-DraftStyleDefault-pre {
+        background-color: rgba(0, 0, 0, 0.05);
+        font-family: 'Inconsolata', 'Menlo', 'Consolas', monospace;
+        font-size: 16px;
+        padding: 20px;
+      }
+
+      .RichEditor-controls {
+        font-family: 'Helvetica', sans-serif;
+        font-size: 14px;
+        margin-bottom: 5px;
+        user-select: none;
+      }
+
+      .RichEditor-styleButton {
+        color: #999;
+        cursor: pointer;
+        margin-right: 16px;
+        padding: 2px 0;
+        display: inline-block;
+      }
+
+      .RichEditor-styleButton.bold {
+        font-weight: bold;
+      }
+
+      .RichEditor-styleButton.italic {
+        font-style: italic;
+      }
+
+      .RichEditor-styleButton.monospace {
+        font-family: monospace;
+      }
+
+      .RichEditor-activeButton {
+        color: #5890ff;
+      }
+
+      </style>
+    </head>
+    <body>
+      <div id="examples">
+
+      </div>
+      <script src="src/index.js"></script>
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124530113-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-124530113-1');
+      </script>
+
+  </body>
+</html>
+
